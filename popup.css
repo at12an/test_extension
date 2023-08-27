@@ -1,4 +1,18 @@
-.container {
+/* img {
+  width: 100px;
+  height: 100px;
+} */
+
+body {
+  background-image: url('gif.gif');
+  background-size: cover; /* Adjust as needed */
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 100px;
+  /* Other background properties can be added here */
+}
+
+/* .container {
   width: 280px;
   color: #314d3e;
 }
@@ -51,4 +65,4 @@
 .bookmark-controls {
   flex: auto;
   text-align: right;
-}
+} */

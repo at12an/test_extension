@@ -1,10 +1,13 @@
 <link href="popup.css" rel="stylesheet" type="text/css" />
 <script type="module" src="popup.js"></script>
 
-<div class="container">
-  <div>
-    <div class="title">Your bookmarks for this video</div>
-
-    <div class="bookmarks" id="bookmarks"></div>
-  </div>
-</div>
+<body>
+  <audio id="myAudiooo" autoplay>
+    <source src="dance.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+  <script>
+    var audio = document.getElementById("myAudiooo");
+    audio.volume = 0.1;
+  </script>
+</body>
